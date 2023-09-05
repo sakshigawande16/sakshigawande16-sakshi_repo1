@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Authentication</title>
+    <link rel="stylesheet" type="text/css" href="login form.css">
+</head>
+<body>
+    <div id="login-container">
+        <h2>Login</h2>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Username" required><br><br>
+            <input type="password" id="password" placeholder="Password" required><br><br>
+            <button type="submit">Login</button>
+        </form>
+        <p id="error-message"></p>
+        <p>Don't have an account? <a href="#" id="register-link">Register</a></p>
+    </div>
+
+    <div id="secure-page">
+        <h2>Welcome to the Secure Page</h2>
+        <p>This is a protected area.</p>
+        <button id="logout-button">Logout</button>
+    </div>
+    <script src="login form.js"></script>
+</body>
+</html>
 
